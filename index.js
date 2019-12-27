@@ -28,7 +28,7 @@ inputField.addEventListener("keyup", function(event) {
         funnyMessage.innerText = `${numberOfGuesses} ? You should buy a lottery ticket!!`
       } else if (numberOfGuesses > 3 && numberOfGuesses <= 6) {
         funnyMessage.innerText = `${numberOfGuesses} ? Not bad...but not Mindreader, what can I say`
-      } else if (numberOfGuesses > 10) {
+      } else if (numberOfGuesses > 7) {
         funnyMessage.innerText = `${numberOfGuesses} ? This game is not your strenght...`
       }
     }
